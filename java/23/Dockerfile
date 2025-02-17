@@ -1,5 +1,6 @@
 FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:23-jdk-noble
 
+## Builed by DEMOCRAFT
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
 LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
