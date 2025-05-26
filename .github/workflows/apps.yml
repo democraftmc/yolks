@@ -17,6 +17,7 @@ jobs:
       matrix:
         app:
           - uptimekuma
+          - cloudnet
     steps:
       - uses: actions/checkout@v4
       
