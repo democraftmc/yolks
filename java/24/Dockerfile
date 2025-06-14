@@ -8,6 +8,7 @@ LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apt update -y \
             && apt install -y \
+				gh \
                 curl \
                 lsof \
                 ca-certificates \
